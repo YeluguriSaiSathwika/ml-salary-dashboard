@@ -1,0 +1,8 @@
+[
+    { "year": 2020, "totalJobs": 1000, "averageSalary": 90000 },
+    { "year": 2021, "totalJobs": 1200, "averageSalary": 95000 },
+    { "year": 2022, "totalJobs": 1500, "averageSalary": 100000 },
+    { "year": 2023, "totalJobs": 1700, "averageSalary": 105000 },
+    { "year": 2024, "totalJobs": 2000, "averageSalary": 110000 }
+  ]
+  

@@ -1,26 +1,19 @@
+// src/App.tsx
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import MainTable from './components/MainTable';
+import LineGraph from './components/LineGraph';
+import ChatApp from './components/ChatApp';
+import 'antd/dist/antd.css';
 
-function App() {
+const App: React.FC = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="App" data-testid="app-component">
+      <MainTable />
+      <LineGraph />
+      <ChatApp />
     </div>
   );
-}
+};
 
 export default App;
+
